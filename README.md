@@ -3,7 +3,7 @@
 Why creating an API using Node.js? Togheter with Express.js (web framework) has the potential to be used for building high performance web APIs. The Web API exposes JSON endpoints. The API has the ability to persist the user information, MongoDB and Mongoose (model the application data) being used for this purpose. Mongoose includes built-in type casting and more importantly validation (sanitization of the inputs). The data exchange format is the JavaScript standard, namely JSON. The solution uses functionality for creating, readling, updating and deleting (CRUD) operations on the User model. The API can be consumed using Postman (see below for steps on how to do it). Additional validation can be implemented using https://github.com/chriso/validator.js.
 
 
-For test coverage, Mocha, the JavaScript test framework (https://mochajs.org/) + Supertest (https://www.npmjs.com/package/supertest) are used. The a number of unit tests are placed in the routes/test.js file. See the steps below on how to run the tests. Not all possible tests were written for the User model.
+For test coverage, Mocha, the JavaScript test framework (https://mochajs.org/) + Supertest (https://www.npmjs.com/package/supertest) are used. There are a number of unit tests are placed in the routes/test.js file. See the steps below on how to run the tests. Not all possible tests were written for the User model.
 
 
 ## Install the app:
